@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadBot - AI Chatbot | GitHub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(52, 73, 94, 0.9);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .feature-card {
+            background: rgba(236, 240, 241, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .feature-card h3 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .feature-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-card li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .feature-card li:before {
+            content: "✅ ";
+            margin-right: 10px;
+        }
+
+        .cta-section {
+            text-align: center;
+            background: rgba(52, 152, 219, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            margin: 30px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #3498db;
+        }
+
+        .button:hover {
+            background: transparent;
+            color: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .button.secondary {
+            background: transparent;
+            color: #3498db;
+            border: 2px solid #3498db;
+        }
+
+        .button.secondary:hover {
+            background: #3498db;
+            color: white;
+        }
+
+        .demo-section {
+            background: rgba(236, 240, 241, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+
+        .demo-section h3 {
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+
+        .command {
+            background: #2c3e50;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(44, 62, 80, 0.8);
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 ShadBot</h1>
+        <p>AI-Powered Chatbot with Mobile-Friendly Interface</p>
+    </div>
+
+    <div class="content">
+        <div class="features">
+            <div class="feature-card">
+                <h3>🧠 Smart AI Features</h3>
+                <ul>
+                    <li>Natural Language Processing with NLTK</li>
+                    <li>Smart intent detection and responses</li>
+                    <li>Name memory and personalized chats</li>
+                    <li>Math calculator functionality</li>
+                    <li>Joke telling and entertainment</li>
+                    <li>Contact info with WhatsApp integration</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>💻 Dual Platform Support</h3>
+                <ul>
+                    <li>Desktop GUI with Tkinter</li>
+                    <li>Mobile-friendly web interface</li>
+                    <li>Responsive design for all devices</li>
+                    <li>Modern UI with beautiful animations</li>
+                    <li>Real-time chat experience</li>
+                    <li>Cross-platform compatibility</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>🚀 Easy to Deploy</h3>
+                <ul>
+                    <li>Simple Python installation</li>
+                    <li>JSON-based response system</li>
+                    <li>Batch file launchers included</li>
+                    <li>Complete documentation</li>
+                    <li>Ready for cloud deployment</li>
+                    <li>Open source and customizable</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>🎯 Get Started with ShadBot</h2>
+            <p>Clone the repository and start using your AI chatbot in minutes!</p>
+            <a href="https://github.com/Shadshere/ShadBot" class="button">View on GitHub</a>
+            <a href="https://github.com/Shadshere/ShadBot/archive/refs/heads/main.zip" class="button secondary">Download ZIP</a>
+        </div>
+
+        <div class="demo-section">
+            <h3>⚡ Quick Setup</h3>
+            <p><strong>Step 1: Clone the repository</strong></p>
+            <div class="command">git clone https://github.com/Shadshere/ShadBot.git</div>
+            
+            <p><strong>Step 2: Install dependencies</strong></p>
+            <div class="command">cd ShadBot<br>pip install -r requirements.txt</div>
+            
+            <p><strong>Step 3: Run your chatbot</strong></p>
+            <div class="command"># Desktop version<br>python shadbot.py<br><br># Web version (mobile-friendly)<br>python shadbot_web.py</div>
+        </div>
+
+        <div class="demo-section">
+            <h3>🎮 Try These Commands</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 8px 0;">💬 <strong>"Hello"</strong> - Smart greetings</li>
+                <li style="padding: 8px 0;">👤 <strong>"My name is John"</strong> - Name memory</li>
+                <li style="padding: 8px 0;">🕐 <strong>"What are your hours?"</strong> - Business info</li>
+                <li style="padding: 8px 0;">😄 <strong>"Tell me a joke"</strong> - Entertainment</li>
+                <li style="padding: 8px 0;">🧮 <strong>"5 + 3"</strong> - Math calculator</li>
+                <li style="padding: 8px 0;">📞 <strong>"Contact info"</strong> - WhatsApp integration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>🤖 ShadBot v1.0 | Made with ❤️ by Amirul | <a href="https://github.com/Shadshere/ShadBot" style="color: #3498db;">GitHub Repository</a></p>
+        <p>📱 Phone: 019-9095792 | <a href="https://wa.me/+60199095792?text=Hello%20Amirul%20" style="color: #25D366;">💬 WhatsApp</a></p>
+    </div>
+</body>
+</html>
