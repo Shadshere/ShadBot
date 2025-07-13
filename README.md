@@ -35,6 +35,15 @@ An intelligent AI-powered chatbot built with Python, featuring Natural Language 
 - Python 3.7 or higher
 - Internet connection (for initial NLTK data download)
 
+## 🚀 Try ShadBot Now!
+
+### 🌐 **Instant Online Demo**
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Shadshere/ShadBot)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Shadshere/ShadBot)
+
+### 📱 **Live Demo Page**
+🎯 **Visit**: [https://shadshere.github.io/ShadBot/](https://shadshere.github.io/ShadBot/) *(Enable GitHub Pages to activate)*
+
 ## 🚀 Installation & Setup
 
 ### Method 1: Quick Start (Recommended)
