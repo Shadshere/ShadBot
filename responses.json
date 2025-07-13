@@ -1,0 +1,47 @@
+{
+  "greetings": [
+    "Hi there! How can I help you?",
+    "Hello! Nice to meet you!",
+    "Hey! What can I do for you today?",
+    "Greetings! How are you doing?"
+  ],
+  "farewell": [
+    "Goodbye! Have a great day!",
+    "See you later! Take care!",
+    "Bye! It was nice talking to you!",
+    "Farewell! Come back anytime!"
+  ],
+  "gratitude": [
+    "You're welcome! 😊",
+    "Happy to help! 🙂",
+    "No problem at all!",
+    "Glad I could assist you!"
+  ],
+  "hours": [
+    "We're open 9 AM to 5 PM, Monday to Friday.",
+    "Our working hours are 9:00 AM to 5:00 PM on weekdays.",
+    "Office hours: Monday-Friday, 9 AM - 5 PM."
+  ],
+  "services": [
+    "I can help you with basic questions, provide information about our services, tell jokes, and do simple math!",
+    "I offer assistance with FAQs, general information, entertainment, and basic calculations.",
+    "My services include answering questions, providing company info, jokes, and math help."
+  ],
+  "contact": [
+    "You can contact Amirul at 019-9095792 or click here to WhatsApp: https://wa.me/+60199095792?text=Hello%20Amirul%20",
+    "For direct contact, call 019-9095792 or WhatsApp Amirul: https://wa.me/+60199095792?text=Hello%20Amirul%20"
+  ],
+  "jokes": [
+    "Why did the computer go to therapy? Because it had too many bugs! 🐞",
+    "Why don't programmers like nature? It has too many bugs! 🌿🐛",
+    "What do you call a computer that sings? A Dell! 🎵",
+    "Why did the developer go broke? Because he used up all his cache! 💰",
+    "How do you comfort a JavaScript bug? You console it! 😄"
+  ],
+  "unknown": [
+    "I'm still learning! Can you ask me something else?",
+    "I'm not sure about that. Could you try asking something different?",
+    "That's interesting, but I don't have an answer for that yet.",
+    "I'm still growing my knowledge! Ask me about our services, hours, or maybe a joke?"
+  ]
+}

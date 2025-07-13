@@ -1,0 +1,9 @@
+@echo off
+echo Starting ShadBot AI Chatbot...
+echo.
+echo Installing required packages...
+python -m pip install -r requirements.txt
+echo.
+echo Starting ShadBot...
+python shadbot.py
+pause
