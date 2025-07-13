@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "shadbot"
+version = "1.0.0"
+description = "ShadBot - AI-powered chatbot with mobile-friendly web interface"
+author = ["Amirul <itsmeshadamirul@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+nltk = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
