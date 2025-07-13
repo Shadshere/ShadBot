@@ -3,6 +3,8 @@ An intelligent AI-powered chatbot built with Python, featuring Natural Language 
 
 ## 🌟 Features
 
+![WhatsApp Image 2025-07-13 at 15 56 42_80c13113](https://github.com/user-attachments/assets/778ce260-6a1d-482c-a1ed-ae8d44982c4e)
+
 ### Core Capabilities
 - **Smart Greetings & Responses** - Friendly and approachable interactions
 - **FAQ System** - Information about services, hours, and contact details
